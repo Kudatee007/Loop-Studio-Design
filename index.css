@@ -1,0 +1,828 @@
+.contain{
+    background-image: url(./img1/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 590px;
+    
+}
+.immerse{
+    margin: 10%;
+    border: 3px solid black;
+    width: 50%;
+    height: 290px;
+    border-color: white;
+    
+    
+}
+.immerse>h1{
+    font-size: 60px;
+    padding: 7%;
+    color: white;
+    
+}
+.lead{
+    margin: 1%;
+    border: 1px solid white;
+    width: 45%;
+    height: 305px;
+    padding: 2%;
+    padding-top: 9%;
+    padding-left: 7%;
+    background-color: white;
+    position: absolute;
+    top: 38%;
+    left: 46%;
+    border-color: white;
+    text-align: center;
+
+}
+.flexx1{
+    display: flex;
+    margin: 9%;
+    position: relative;
+}
+.lead>h1{
+    font-weight: 250;
+    font-family: sans-serif;
+    width: 15ch;
+    font-size: 45px;
+   
+}
+.lead>p{
+    font-size: 60%;
+    width: 50ch;
+    
+}
+.flexx2{
+    display: flex;
+    justify-content: space-between;
+    margin-block-end: 6%;
+    
+}
+.flexx2>h1{
+    font-weight: 250;
+}
+.butto{
+    width: 120px;
+    height: 65%;
+    background-color: white;
+    border: 1px solid black;
+}
+/*.deep{
+   background-image: url(./img1/image-deep-earth.jpg);
+   background-repeat: no-repeat;
+   height: 340px;
+   border-radius: 7px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    padding-top: 260px;
+    padding-left: 7%;
+    color: white;
+    font-weight: 250;
+}
+.soccer:hover{
+    opacity: 0.4;
+    backdrop-filter: blur(10px);
+    filter: blur(5px);
+    transition: 0.15s ease;
+
+}
+
+.night{
+    background-image: url(./img1/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    height: 340px;
+    border-radius: 7px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    padding-top: 260px;
+    padding-left: 7%;
+    color: white;
+    font-weight: 250;
+}
+.soccer{
+    background-image: url(./img1/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    height: 340px;
+    border-radius: 7px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    padding-top: 225px;
+    padding-left: 7%;
+    color: white;
+    font-weight: 250;
+}
+
+.theg{
+    background-image: url(./img1/image-grid.jpg);
+    background-repeat: no-repeat;
+    height: 340px;
+    border-radius: 7px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    padding-top: 260px;
+    padding-left: 7%;
+    color: white;
+    font-weight: 250;
+}
+.above{
+    background-image: url(./img1/image-from-above.jpg);
+    background-repeat: no-repeat;
+    height: 340px;
+    border-radius: 7px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    padding-top: 194px;
+    padding-left: 7%;
+    color: white;
+    font-weight: 250;
+}
+.pock{
+    background-image: url(./img1/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    height: 340px;
+    border-radius: 7px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    padding-top: 260px;
+    padding-left: 7%;
+    color: white;
+    font-weight: 250;
+}
+.curio{
+    background-image: url(./img1/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    height: 340px;
+    border-radius: 7px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    padding-top: 260px;
+    padding-left: 7%;
+    color: white;
+    font-weight: 250;
+}
+.fish{
+    background-image: url(./img1/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    height: 340px;
+    border-radius: 7px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    padding-top: 225px;
+    padding-left: 7%;
+    color: white;
+    font-weight: 250;
+    
+}
+.gridd1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3%;
+    
+}*/
+.deep{
+    position: relative;
+}
+.deep>img{
+    
+     height: 90%;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    transition: .5s;
+}
+.deep>img:hover{
+    filter: blur(5px);
+    transform: scale(0.9);
+}
+.deep>h3{
+    z-index: 1;
+    position: absolute;
+    color: white;
+    left: 18px;
+    bottom: 45px;
+    font-weight: 250;
+}
+.night{
+
+    position: relative;
+}
+.night>img{
+    height: 90%;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    transition: .5s;
+    
+}
+.night>img:hover{
+    filter: blur(5px);
+    transform: scale(0.9);
+}
+.night>h3{
+    position: absolute;
+    z-index: 1;
+   color: white;
+   left: 18px;
+    bottom: 45px;
+    font-weight: 250;
+}
+.soccer{
+
+    position: relative;
+}
+.soccer>img{
+    height: 90%;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    transition: .5s;
+    
+}
+.soccer>img:hover{
+    filter: blur(5px);
+    transform: scale(0.9);
+}
+.soccer>h3{
+   position: absolute;
+  z-index: 1;
+  color: white;
+  left: 18px;
+    bottom: 45px;
+    font-weight: 250;
+}
+.theg{
+
+    position: relative;
+}
+.theg>img{
+    height: 90%;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    transition: .5s; 
+}
+.theg>img:hover{
+    filter: blur(5px);
+    transform: scale(0.9);
+}
+.theg>h3{
+   position: absolute;
+  z-index: 1;
+  color: white;
+  left: 18px;
+    bottom: 45px;
+   font-weight: 250;
+}
+.above{
+
+    position: relative;
+}
+.above>img{
+    height: 90%;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    transition: .5s;
+    
+}
+.above>img:hover{
+    filter: blur(5px);
+    transform: scale(0.9);
+}
+.above>h3{
+   position: absolute;
+   z-index: 1;
+   color: white;
+   left: 18px;
+   bottom: 45px;
+   font-weight: 250;
+}
+.pock{
+
+    position: relative;
+}
+
+.pock>img{
+    height: 90%;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    transition: .5s;
+    
+}
+.pock>img:hover{
+    filter: blur(5px);
+    transform: scale(0.9);
+}
+.pock>h3{
+   position: absolute;
+   z-index: 1;
+   color: white;
+   left: 18px;
+    bottom: 45px;
+   font-weight: 250;
+   
+}
+.curio{
+
+    position: relative;
+}
+.curio>img{
+    height: 90%;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    transition: .5s;
+    
+}
+.curio>img:hover{
+    filter: blur(5px);
+    transform: scale(0.9);
+}
+.curio>h3{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    left: 18px;
+    bottom: 45px;
+   font-weight: 250;
+   
+}
+.fish{
+
+    position: relative;
+}
+.fish>img{
+    height: 90%;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 5px rgb(71, 70, 70);
+    transition: .5s;
+    
+}
+.fish>img:hover{
+    filter: blur(5px);
+    transform: scale(0.9);
+}
+.fish>h3{
+   position: absolute;
+   z-index: 1;
+   color: white;
+   left: 18px;
+    bottom: 45px;
+   font-weight: 250;
+}
+
+.gridd1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3%;
+    grid-row-gap: 0px;
+
+}
+.bigbody{
+    margin: 13%;
+}
+.aceps>ul{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    list-style: none;
+}
+.aceps>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    /* margin-block-end: 10%; */
+    background-color: black;
+}
+.loo>h2{
+    font-size: 45px;
+    margin: 8%;
+    margin-block-end: 15%;
+    color: white;
+}
+.iconss{
+    margin: 19%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+.iconss>img{
+    width: 18%;
+}
+.reserve{
+    color: gray;
+}
+.loo{
+    margin-block-end: 6%;
+}
+/* img:hover{
+    background-color: red;
+} */
+@media (max-width: 1200px) {
+    .immerse>h1{
+        font-size: 56px; 
+    }
+    .lead{
+        top: 38%;
+        left: 57%;
+    }
+   
+
+
+}
+
+@media (max-width: 1000px) {
+    .gridd1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0%;
+        grid-row-gap: 40px;
+    
+    }
+    .lead{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        
+    }
+    .flexx1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .inter>img{
+        width: 100%;
+    }
+    .lead>h1{
+        font-size:35px;
+        width: 37ch;
+    }
+    .lead>p{
+        font-size: 16px;
+        width: 69ch;
+    }
+    .inter>img{
+        width: 50%;
+        /* text-align: center; */
+    }
+    .immerse{
+        width: 62%;
+    }
+    .deep>h3{
+        left: 24px;
+        bottom: 15px;
+    }
+    .deep > img{
+        height: 200px;
+        background-size: contain;
+        
+     }
+    .night>h3{
+        left: 24px;
+        bottom: 15px;
+    }
+    .night > img{
+        height: 200px;
+        background-size: contain;
+     }
+   .soccer>h3{
+    left: 24px;
+        bottom: 15px;
+   }
+   .soccer > img{
+    height: 200px;
+    background-size: contain;
+ }
+   .theg>h3{
+    left: 24px;
+    bottom: 15px;
+   }
+   .theg > img{
+    height: 200px;
+    background-size: contain;
+ }
+   .above>h3{
+    left: 24px;
+        bottom: 15px;
+   }
+   .above > img{
+    height: 200px;
+    background-size: contain;
+ }
+   .fish>h3{
+    left: 24px;
+    bottom: 15px;
+   }
+   .fish > img{
+    height: 200px;
+    background-size: contain;
+ } 
+   .curio>h3{
+    left: 24px;
+        bottom: 15px;
+   }
+   .curio > img{
+    height: 200px;
+    background-size: contain;
+ }
+   .pock>h3{
+   left: 24px;
+        bottom: 15px;
+   }
+   .pock > img{
+    height: 200px;
+    background-size: contain;
+ }
+   
+   .bigbody{
+    margin: 10%;
+
+ }
+
+ 
+}
+@media (max-width: 900px){
+    .lead>h1{
+        font-size:35px;
+        width: 31ch;
+    }
+    .lead>p{
+        font-size: 16px;
+        width: 62ch;
+    }
+    .bigbody{
+        margin: 10.6%;
+     }
+      
+    }
+    @media (max-width: 800px){
+        .lead>h1{
+            font-size: 32px;
+            width: 30ch;
+        }
+        .lead>p{
+            font-size: 13px;
+            width: 67ch;
+        }
+        .deep > img{
+            height: 150px;
+         }
+         .night > img{
+            height: 150px;
+         }
+         .soccer > img{
+            height: 150px;
+         }
+        .soccer>h3{
+            bottom: 5px;
+        }
+        .above>h3{
+            bottom: 0px;
+        }
+        .fish>h3{
+            bottom: 2px;
+        }
+         .theg > img{
+            height: 150px;
+         }
+         .above > img{
+            height: 150px;
+         }
+         .pock > img{
+            height: 150px;
+         }
+         .curio > img{
+            height: 150px;
+         }
+         .fish > img{
+            height: 150px;
+         }
+
+    }
+    @media (max-width: 700px){
+        .deep>h3{
+            font-size: 19px;
+        }
+        .night>h3{
+            font-size: 19px;
+        }
+       .soccer>h3{
+        font-size: 19px;
+       }
+       .theg>h3{
+        font-size: 19px;
+       }
+       .above>h3{
+        font-size: 19px;
+       }
+       .fish>h3{
+        font-size: 19px;
+       } 
+       .curio>h3{
+        font-size: 19px;
+       }
+       .pock>h3{
+        font-size: 19px;
+       }
+       .above>h3{
+        font-size: 19px;
+       }
+       .immerse{
+        width: 70%;
+        height: 250px;
+       }
+       .immerse>h1{
+        font-size: 50px;
+        padding: 7%; 
+    }
+    .lead>h1{
+        font-size:35px;
+        width: 18ch;
+    }
+    .lead>p{
+        font-size: 16px;
+        width: 35ch;
+    }
+    .lead{
+        margin-left: 70px;
+    }
+
+    }
+    @media (max-width: 600px){
+       
+        .immerse{
+            width: 75%;
+            height: 210px;
+           }
+           .immerse>h1{
+            font-size: 40px;
+        }
+        .bigbody{
+            margin: 6%;
+        }
+        .lead{
+            margin-left: 33px;
+        }
+        .deep > img{
+            height: 100px;
+            width: 70%;
+         }
+         .night > img{
+            height: 100px;
+            width: 70%;
+            margin-left: 29%;
+         }
+         .night>h3{
+            left: 81%;
+            }
+         .soccer > img{
+            height: 100px;
+            width: 70%;
+         }
+         .theg > img{
+            height: 100px;
+            width: 70%;
+            margin-left: 29%;
+         }
+          .theg>h3{
+            left: 86%;
+            }
+         .above > img{
+            height: 100px;
+            width: 70%;
+         }
+         .pock > img{
+            height: 100px;
+            width: 70%;
+            margin-left: 29%;
+         }
+         .pock>h3{
+            left: 78%;
+            }
+         .curio > img{
+            height: 100px;
+            width: 70%;
+         }
+         .fish > img{
+            height: 100px;
+            width: 70%;
+            margin-left: 29%;
+         }
+         .fish>h3{
+            left: 80%;
+            }
+         .gridd1{
+            grid-row-gap: 18px;
+         }
+        
+    }
+    @media (max-width: 550px){
+        .lead{
+            margin-left: 15px;
+        }
+    }
+    @media (max-width: 500px){
+       
+        .lead>p{
+            font-size: 10px;
+            /* width: 30ch; */
+            margin-left: 55px;
+        }
+      .lead{
+        margin-left: 0px;
+      }
+        .contain{
+            width: 100%;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            /* margin-block-end: 10%; */
+            background-color: black;
+        }
+        .loo>h2{
+            font-size: 45px;
+            margin: 8%;
+            margin-block-end: 10%;
+            color: white;
+        }
+        .iconss{
+            font-size: 0px;
+         
+        }
+        .reserve{
+            text-align: center;
+        }
+        .night>h3{
+            left: 77%;
+            }
+        .theg>h3{
+            left: 83%;
+                }
+        .fish>h3{
+            left: 77%;
+                    }
+        .pock>h3{
+            left: 74%;
+           }
+    }    
+    @media (max-width: 420px){     
+        .aceps>ul{
+
+            width: 330px;  
+        }
+        .night>h3{
+            left: 73%;
+            }
+        .theg>h3{
+            left: 81.5%;
+                }
+        .fish>h3{
+            left: 73%;
+                    }
+        .pock>h3{
+            left: 69%;
+           }
+           .lead>p{
+            font-size: 8px;
+        
+        }
+        .lead>h1{
+            font-size: 29px;
+        }
+        .immerse>h1{
+            font-size: 35px;
+        }
+      
+    }
+    @media (max-width: 375px){  
+        .lead>p{
+            font-size: 7px;
+        }
+        .lead>h1{
+            font-size: 26px;
+        }
+        .immerse>h1{
+            font-size: 36px;
+        }
+        .butto{
+            display: none;
+        }
+    }
+    @media (max-width: 330px){  
+        .lead>p{
+            font-size: 6px;
+        }
+        .lead>h1{
+            font-size: 24px;
+        }
+    }
+      
+
+    
+
+
+
