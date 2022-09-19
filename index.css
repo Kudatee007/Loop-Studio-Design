@@ -474,6 +474,8 @@ footer{
     .deep>h3{
         left: 24px;
         bottom: 15px;
+        font-weight: 700;
+       
     }
     .deep > img{
         height: 200px;
@@ -483,6 +485,7 @@ footer{
     .night>h3{
         left: 24px;
         bottom: 15px;
+        font-weight: 700;
     }
     .night > img{
         height: 200px;
@@ -491,6 +494,7 @@ footer{
    .soccer>h3{
     left: 24px;
         bottom: 15px;
+        font-weight: 700;
    }
    .soccer > img{
     height: 200px;
@@ -499,6 +503,7 @@ footer{
    .theg>h3{
     left: 24px;
     bottom: 15px;
+    font-weight: 700;
    }
    .theg > img{
     height: 200px;
@@ -507,6 +512,7 @@ footer{
    .above>h3{
     left: 24px;
         bottom: 15px;
+        font-weight: 700;
    }
    .above > img{
     height: 200px;
@@ -515,6 +521,7 @@ footer{
    .fish>h3{
     left: 24px;
     bottom: 15px;
+    font-weight: 700;
    }
    .fish > img{
     height: 200px;
@@ -523,14 +530,16 @@ footer{
    .curio>h3{
     left: 24px;
         bottom: 15px;
+        font-weight: 700;
    }
    .curio > img{
     height: 200px;
     background-size: contain;
  }
    .pock>h3{
-   left: 24px;
-        bottom: 15px;
+    left: 24px;
+    bottom: 15px;
+    font-weight: 700;
    }
    .pock > img{
     height: 200px;
@@ -776,6 +785,8 @@ footer{
         }
         .night>h3{
             left: 73%;
+            bottom: 2px;
+
             }
         .theg>h3{
             left: 81.5%;
